@@ -151,7 +151,7 @@ export default function App() {
         >
           <MonitorPlay className="w-7 h-7 transition-transform group-hover:scale-110" />
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#E50914] to-red-600">
-            CineBook
+            Chai N Moj
           </span>
         </button>
 

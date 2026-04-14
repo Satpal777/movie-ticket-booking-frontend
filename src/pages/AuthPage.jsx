@@ -54,7 +54,7 @@ export default function AuthPage({ onLogin }) {
         <div className="absolute bottom-16 left-16 max-w-xl z-20">
           <div className="inline-flex items-center justify-center gap-3 text-white mb-4">
             <MonitorPlay className="w-10 h-10 text-[#E50914] drop-shadow-[0_0_15px_rgba(229,9,20,0.8)]" />
-            <h1 className="text-4xl font-extrabold tracking-tight">CineBook</h1>
+            <h1 className="text-4xl font-extrabold tracking-tight">Chai N Moj</h1>
           </div>
           <p className="text-xl text-gray-300 font-medium leading-relaxed drop-shadow-md">
             Your front-row seat to the ultimate cinematic experience. Book tickets, explore showtimes, and dive into the magic of movies.
@@ -66,7 +66,7 @@ export default function AuthPage({ onLogin }) {
         <div className="w-full max-w-md">
           <div className="lg:hidden text-center mb-8">
             <MonitorPlay className="w-12 h-12 text-[#E50914] mx-auto mb-3" />
-            <h1 className="text-3xl font-extrabold text-white">CineBook</h1>
+            <h1 className="text-3xl font-extrabold text-white">Chai N Moj</h1>
           </div>
 
           <div className="mb-8">
@@ -113,7 +113,7 @@ export default function AuthPage({ onLogin }) {
                 type="email" 
                 value={form.email} 
                 onChange={set('email')} 
-                placeholder="Ex. hello@cinebook.com"
+                placeholder="Ex. hello@chainmoj.com"
               />
               <Input 
                 icon={Lock} 
@@ -142,7 +142,7 @@ export default function AuthPage({ onLogin }) {
                 type="email" 
                 value={form.email} 
                 onChange={set('email')} 
-                placeholder="Ex. hello@cinebook.com"
+                placeholder="Ex. hello@chainmoj.com"
               />
               <Input 
                 icon={Lock} 
