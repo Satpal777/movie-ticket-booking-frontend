@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/api': 'https://cinebook.satpal.cloud/health',
+      '/api': 'https://cinebook.satpal.cloud',
     },
   },
 })
