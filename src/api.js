@@ -1,4 +1,4 @@
-const BASE = '/api/v1';
+const BASE = 'https://cinebook.satpal.cloud/api/v1';
 
 function getToken() {
   return localStorage.getItem('accessToken');

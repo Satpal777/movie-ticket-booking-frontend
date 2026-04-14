@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/api': 'https://cinebook.satpal.cloud',
+      '/api': 'http://localhost:8000',
     },
   },
 })
